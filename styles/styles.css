@@ -81,4 +81,16 @@ body{
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 107px;
 }
+
+/* --- brand logo styles --- */
+.brand-logo{
+    padding: 0 165px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+/* --- popular collection styles --- */
