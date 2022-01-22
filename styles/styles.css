@@ -1,7 +1,7 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* Common styles */
+/*---- Common styles ----*/
 *{
     margin: 0;
     padding: 0;
@@ -13,14 +13,28 @@ body{
     margin: 0 auto; 
     padding: 0 20px;
 }
+.button{
+   background-color: #E02C6D;
+   color: white;
+   padding: 10px 24px;
+   border-radius: 41px;
+   border-style: none;
+   font-size: 16px;
+   font-weight: 700;
+}
 
-/* Header part styles */
+/* ------------- 
+--------------Header part styles--------------- 
+------------- */
 .navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px 0;
 }
+.navigation-left h2{
+    color: #3A3A3A;
+} 
 .menu-part{
     display: flex;
 }
@@ -30,5 +44,41 @@ body{
 }
 .menu-part li a{
     text-decoration: none;
-    color: black;
+    color: #3A3A3A;
+}
+
+/* ------------- 
+--------------Main part styles--------------- 
+------------- */
+
+/* --- influencer part styles --- */
+.influencer-part{
+    /* height: calc(100vh - 60px); */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 60px;
+    align-items: center;
+}
+.influencer-info h1{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.influencer-info p{
+    color: #3A3A3A;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.influencer-info .fa-arrow-right{
+    margin-left: 8px;
+}
+.influencer-image img{
+    width: 440px;
+    height: 414px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
