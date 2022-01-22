@@ -21,6 +21,7 @@ body{
    border-style: none;
    font-size: 16px;
    font-weight: 700;
+   cursor: pointer;
 }
 
 /* ------------- 
@@ -93,4 +94,4 @@ body{
     justify-items: center;
 }
 
-/* --- popular collection styles --- */
+/* --- popular collection part styles --- */
